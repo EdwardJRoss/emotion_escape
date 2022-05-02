@@ -8,19 +8,17 @@
 </head>
 <body>
     <h1>Emotion Escape</h1>
-    <img id="upload-preview" src="" width="60 px">
-    <p>You are feeling <span id="emotion">...</span></p>
-    <img id="scene-image" src="" alt="" width="400 px">
-    <p id="pre-description"></p>
-    <p id="description">Start</p>
-
-    <label for="image-file" id="upload-label">Show your emotion by uploading your expression. Are you happy, angry, sad, afraid or disgusted?</label>
-    <input type="file"
-       id="image-file" name="image-file"
-       capture="environment" accept="image/*">
-<div>
-<img id="image-preview" src="" width="400 px">
-  <script src="js/adventure.js"></script>
+    <p>
+    Emotion escape is a choose-your-own adventure game where you control your path by uploading a photo of your face expressing an emotion.
+    The game recognises 5 emotions: happy, sad, fear, anger, and disgust.
+    </p>
+    <p>
+    The game recognises your emotion from your facial expression using a neural network trained in [fastai](https://fast.ai).
+    This might sound complicated but it [doesn't require a lot of code](https://www.kaggle.com/code/edwardjross/affectnet-resnet-fastai/).
+    </p>
+    <p>
+    <a href="/game">Begin the game</a>
+    </p>
 </body>
 </html>
 
